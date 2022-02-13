@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
-img = cv2.imread('AB1.jpg')
+img = cv2.imread('Ad1.jpg')
 b, g, r = cv2.split(img)
 zeros_ch = np.zeros(img.shape[0:2], dtype="uint8")
 
